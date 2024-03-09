@@ -1,0 +1,121 @@
+/* weights: 500, 700 */
+body {
+    font-family: "Poppins", sans-serif;
+    color: hsl(255, 11%, 22%);
+    margin: 0;
+    font-size: 18px;
+    font-style: normal;
+}
+
+div {
+    display: inline-block;
+}
+
+a{
+    color: hsl(257, 7%, 63%);
+    text-decoration: none;
+}
+
+a:hover{
+    color: hsl(255, 11%, 22%);
+}
+
+button {
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsla(180, 66%, 49%, 0.313);
+}
+
+/* UTILITY CLASSES */
+.centered-div {
+    margin: 0 auto;
+    display: block;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.navbar-text {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* SPECIFIC CLASSES */
+.body-div {
+    margin: 0 auto;
+    display: block;
+    width: 1150px;
+}
+
+.navbar {
+    margin-top: 60px;
+}
+
+.shortly {
+    margin-right: 50px;
+    font-weight: 700;
+    font-size: 33px;
+}
+
+.nav-links{
+    margin-top: 8px;
+}
+
+.pricing {
+    margin: 0 35px;
+}
+
+.logins{
+    margin-top: 8px;
+}
+
+.login {
+    color: hsl(257, 7%, 63%);
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.signup {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.test {
+    border: 1px solid red;
+}
+
+.color {
+    Primary: hsl(180, 66%, 49%) hsl(257, 27%, 26%);
+
+    Secondary: hsl(0, 87%, 67%);
+
+    Neutral: hsl(0, 0%, 75%) hsl(257, 7%, 63%) hsl(255, 11%, 22%) hsl(260, 8%, 14%);
+}
